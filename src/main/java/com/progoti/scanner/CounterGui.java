@@ -29,6 +29,7 @@ public class CounterGui extends javax.swing.JFrame {
         setSrcDir();
         setActionListenerToRadioButtons();
         this.setTitle("Scanner File Counter");
+        this.setResizable(false);
     }
 
     /**
